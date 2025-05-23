@@ -6,6 +6,7 @@
  *       And base case is when the lowIndex is equal to highIndex
  */
 
+ 
 class BinarySearchDivideAndConquer {
     public static void main(String[] args) {
         int[] myArray = {-57,-8,3,5,8,9,10};
