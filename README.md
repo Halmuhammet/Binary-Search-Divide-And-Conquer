@@ -1,6 +1,6 @@
 # Binary Search (Divide and Conquer)
 
-This Java program implements the **Binary Search** algorithm using the **Divide and Conquer** strategy.
+This Java program implements the **Binary Search** algorithm using the **Divide and Conquer** strategy (just for fun and to learn about D&C).
 
 ## Description
 
