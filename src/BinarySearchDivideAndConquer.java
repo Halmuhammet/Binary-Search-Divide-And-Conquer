@@ -16,14 +16,14 @@ class BinarySearchDivideAndConquer {
 
     public static int binarySearch_divide_and_conquer(int[] array, int lowIndex, int highIndex, int target){
 
-        //if the selected number is equal to the target number or if it is not in the array, program returns -1.
-        //if the selected number is less than the target number, then we set the lower index of array equal
-        //to the index of the target number, and apply the same logic to the new array with constricted range
-        //if the selected number is greater than the target number, then we set the upper index of array equal
-        //to the index of the target number, and apply the same logic to the new array with constricted range.
+        // If the selected number is equal to the target number or if it is not in the array, program returns -1.
+        // If the selected number is less than the target number, then we set the lower index of array equal
+        // to the index of the target number + 1, and apply the same logic to the new array with constricted range
+        // If the selected number is greater than the target number, then we set the upper index of array equal
+        // to the index of the target number - 1, and apply the same logic to the new array with constricted range.
 
         // When we are left with lowIndex == highIndex, it means there is only one element in the array
-        // We need to check whether this element is a target.
+        // So, we need to check whether this element is a target.
 
         if (lowIndex == highIndex && array[lowIndex] != target) {
             return -1; // Base case: target not in the array
